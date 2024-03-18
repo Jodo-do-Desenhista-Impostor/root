@@ -24,4 +24,10 @@ registerApplication({
   activeWhen: (location) => location.pathname.startsWith("/home"),
 });
 
+registerApplication({
+  name: "systudo-sidenav-frontend",
+  app: async () => (await System.import("//localhost:4201/main.js")).default,
+  activeWhen: (location) => location.pathname.startsWith("/sidenav"),
+});
+
 start();
