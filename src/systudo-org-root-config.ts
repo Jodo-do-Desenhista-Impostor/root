@@ -20,7 +20,6 @@ applications.forEach(registerApplication);
 layoutEngine.activate();
 
 window.addEventListener("single-spa:before-routing-event", (evt) => {
-  // redireciona para login quando nao logado
   if (
     !window.localStorage.getItem("systudo-token") &&
     window.location.pathname != "/login"
@@ -38,18 +37,6 @@ window.addEventListener("single-spa:before-routing-event", (evt) => {
     if (!name.includes(app)) index++;
   });
   if (index == appNames.length) singleSpa.navigateToUrl("/pagenotfound");
-});
-
-registerApplication({
-  name: "systudo-home-frontend",
-  app: async () => (await System.import("//localhost:4200/main.js")).default,
-  activeWhen: (location) => location.pathname.startsWith("/home"),
-});
-
-registerApplication({
-  name: "systudo-login-frontend",
-  app: async () => (await System.import("//localhost:4201/main.js")).default,
-  activeWhen: (location) => location.pathname.startsWith("/login"),
 });
 
 start();

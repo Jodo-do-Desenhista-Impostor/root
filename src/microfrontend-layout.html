@@ -18,6 +18,24 @@
   -->
 
   <main>
-    <route default></route>
+    <application name="@systudo-org/sidenav"></application>
+    
+    <!-- "@systudo-org/root-config": "//localhost:9000/systudo-org-root-config.js",
+    "@systudo-org/systudo-sidenav": "//localhost:4200/main.js",
+    "@systudo-org/systudo-home-frontend": "//localhost:4201/main.js",
+    "@systudo-org/systudo-login-frontend": "//localhost:4202/main.js",
+    "@systudo-org/react": "//localhost:8080/systudo-react.js" -->
+    <route path="login">
+      <application name="@systudo-org/login"></application>
+    </route>
+    <route path="home">
+      <application name="@systudo-org/home"></application>
+    </route>
+    <route path="profile">
+      <application name="@systudo-org/profile"></application>
+    </route>
+    <route path="react">
+      <application name="@systudo-org/react"></application>
+    </route>
   </main>
 </single-spa-router>
