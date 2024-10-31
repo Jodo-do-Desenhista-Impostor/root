@@ -1,5 +1,5 @@
 {
-  "name": "@systudo-org/root-config",
+  "name": "@jogo-do-impostor/root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -46,5 +46,5 @@
     "single-spa": "^5.9.3",
     "single-spa-layout": "^1.6.0"
   },
-  "types": "dist/systudo-org-root-config.d.ts"
+  "types": "dist/jogo-do-impostor-root-config.d.ts"
 }

@@ -3,7 +3,7 @@ const singleSpaDefaults = require("webpack-config-single-spa-ts");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = (webpackConfigEnv, argv) => {
-  const orgName = "systudo-org";
+  const orgName = "jogo-do-impostor";
   const defaultConfig = singleSpaDefaults({
     orgName,
     projectName: "root-config",

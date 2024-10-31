@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/systudo-org-root-config.ts"],
+  "files": ["src/jogo-do-impostor-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },

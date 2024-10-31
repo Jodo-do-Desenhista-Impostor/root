@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Systudo</title>
+  <title>jogo-do-impostor</title>
 
   <!--
     Remove this if you only support browsers that support async/await.
@@ -51,11 +51,9 @@
     <script type="systemjs-importmap">
       {
         "imports": {
-          "@systudo-org/root-config": "//localhost:9000/systudo-org-root-config.js",
-          "@systudo-org/sidenav": "//localhost:4200/main.js",
-          "@systudo-org/home": "//localhost:4201/main.js",
-          "@systudo-org/login": "//localhost:4202/main.js",
-          "@systudo-org/profile": "//localhost:4203/main.js"
+          "@jogo-do-impostor/root-config": "//localhost:9000/jogo-do-impostor-root-config.js",
+          "@jogo-do-impostor/game-screen": "//localhost:4200/main.js",
+          "@jogo-do-impostor/config-screen": "//localhost:8080/jogo-do-impostor-config-screen.js"
         }
       }
     </script>
@@ -63,11 +61,9 @@
     <script type="systemjs-importmap">
       {
         "imports": {
-          "@systudo-org/root-config": "//localhost:9000/systudo-org-root-config.js",
-          "@systudo-org/sidenav": "//localhost:4200/main.js",
-          "@systudo-org/home": "//localhost:4201/main.js",
-          "@systudo-org/login": "//localhost:4202/main.js",
-          "@systudo-org/profile": "//localhost:4203/main.js"
+          "@jogo-do-impostor/root-config": "//localhost:9000/jogo-do-impostor-root-config.js",
+          "@jogo-do-impostor/game-screen": "//localhost:4200/main.js",
+          "@jogo-do-impostor/config-screen": "//localhost:8080/jogo-do-impostor-config-screen.js"
         }
       }
     </script>
@@ -94,7 +90,7 @@
     You need to enable JavaScript to run this app.
   </noscript>
   <script>
-    System.import('@systudo-org/root-config');
+    System.import('@jogo-do-impostor/root-config');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
