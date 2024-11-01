@@ -44,8 +44,8 @@ O Desenho do Impostor é um jogo web desenvolvido em Single SPA, Angular e React
 
 ## 📱 Screenshots
 
-![Alt text](/root/public/images/tela_config.png?raw=true "Optional Title")
-![Alt text](/root/public/images/tela_game.png?raw=true "Optional Title")
+![Tela de Configuração](/public/images/tela_config.png?raw=true)
+![Tela de Jogo](/public/images/tela_game.png?raw=true)
 
 ## Versão 1
 
