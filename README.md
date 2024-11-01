@@ -9,6 +9,7 @@ O Desenho do Impostor é um jogo web desenvolvido em Single SPA, Angular e React
 ## 🎮 Como Jogar
 
 ### Preparação
+
 - Mínimo de 3 jogadores.
 - Cadastre os nomes dos jogadores no app
 - O sistema irá:
@@ -16,11 +17,14 @@ O Desenho do Impostor é um jogo web desenvolvido em Single SPA, Angular e React
   - Distribuir uma palavra secreta para os demais jogadores
 
 ### Regras
+
 1. **Fase de Desenho**
+
    - Cada jogador faz um traço no desenho no seu turno, sem falar ou fazer gestos.
    - O impostor deve fingir que conhece a palavra e disfarçar seu traço para não ser descoberto.
 
 2. **Fase de Votação**
+
    - Ao final de uma (ou mais) rodada(s), todos votam em quem acham ser o impostor
    - Quem receber mais votos é eliminado
 
@@ -44,8 +48,10 @@ O Desenho do Impostor é um jogo web desenvolvido em Single SPA, Angular e React
 
 ## 📱 Screenshots
 
-![Alt text](/root/public/images/tela_config.png?raw=true "Optional Title")
-![Alt text](/root/public/images/tela_game.png?raw=true "Optional Title")
+<div style="display: flex; gap: 10px;">
+  <img src="/public/images/tela_config.png" width="300" alt="descrição">
+  <img src="/public/images/tela_game.png" width="300" alt="descrição">
+</div>
 
 ## Versão 1
 
