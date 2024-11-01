@@ -70,6 +70,11 @@ Na primeira versão do jogo é necessário passar o celular de mão em mão para
 4. Push para a Branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
+## Outros Repositórios
+
+- [Tela de Configuração](https://github.com/Jodo-do-Desenhista-Impostor/config-screen)
+- [Tela de Jogo](https://github.com/Jodo-do-Desenhista-Impostor/game-screen)
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença GPL-3.0 - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
