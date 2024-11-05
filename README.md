@@ -2,6 +2,8 @@
 
 Um jogo social de dedução onde jogadores colaboram em um desenho enquanto um impostor tenta se misturar entre eles.
 
+Link do Jogo: [https://d15t6m94oiduw4.cloudfront.net](https://d15t6m94oiduw4.cloudfront.net/)
+
 ## 📝 Descrição
 
 O Desenho do Impostor é um jogo web desenvolvido em Single SPA, Angular e React, onde jogadores trabalham juntos para criar um desenho baseado em uma palavra secreta, enquanto um impostor tenta se passar por um jogador regular sem conhecer a palavra.
